@@ -1,8 +1,12 @@
 {
+  // these informations are from firebase project settings
   "project_info": {
-    "project_number": "894438653195",
-    "project_id": "kotlinstudentsharingplatform",
-    "storage_bucket": "kotlinstudentsharingplatform.appspot.com"
+    // your project number
+    "project_number": "",
+    // your project id
+    "project_id": "",
+    // your storage bucket
+    "storage_bucket": ""
   },
   "client": [
     {
@@ -20,7 +24,8 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3SWyaxGVZxSjzou875qKEV7Frt_ZFZp0"
+          // your api key must be exist in here
+          "current_key": ""
         }
       ],
       "services": {
