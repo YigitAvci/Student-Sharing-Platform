@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.SearchFragment" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent" android:layout_height="80dp">
+
+
+        <com.google.android.material.chip.ChipGroup
+                style="@style/AppTheme"
+                app:singleSelection="true"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="AI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipAI"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="Calc 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipCalc1"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="Calc 2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipCalc2"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="ML"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipML"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="Phys 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipPhys1"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="Phys 2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipPhys2"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="Geom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipGeom"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="Differ Equ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipDiff"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="OS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipOS"/>
+            <com.google.android.material.chip.Chip
+                    style="@style/customChipStyle"
+                    android:text="All"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" android:id="@+id/chipAll"/>
+        </com.google.android.material.chip.ChipGroup>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>

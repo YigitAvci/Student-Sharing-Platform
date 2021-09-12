@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.UploadFragment">
+
+    <ImageView
+            android:id="@+id/imageView_upload"
+            android:src="@drawable/chosing_image"
+            android:layout_width="250dp" android:layout_height="350dp"/>
+    <Spinner
+            android:layout_marginTop="30dp"
+            android:id="@+id/spinner_upload_class_name"
+            android:background="@drawable/input_custom_login"
+            android:layout_width="320dp" android:layout_height="50dp"/>
+    <EditText
+            android:textCursorDrawable="@color/colorThemeGreen"
+            android:id="@+id/edittext_upload_class_date"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#d3d3d3"
+            android:layout_marginTop="10dp"
+            android:hint="Class Date (XX:XX:XXXX)"
+            android:inputType="datetime"
+            android:background="@drawable/input_custom_login"
+            android:layout_width="320dp" android:layout_height="50dp"/>
+    <Button
+            android:text="Upload"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            android:layout_marginTop="15dp"
+            android:id="@+id/button_upload"
+            android:background="@drawable/button_custom_upload"
+            android:layout_width="320dp" android:layout_height="50dp"/>
+
+</LinearLayout>

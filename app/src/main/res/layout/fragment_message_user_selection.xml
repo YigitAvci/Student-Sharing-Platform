@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".fragments.MessageFragment">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="50dp" android:orientation="horizontal"
+                  android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        <EditText
+                android:hint="Search by username"
+                android:textColorHint="#808080"
+                android:id="@+id/edittext_searchBar"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:background="@drawable/input_custom"
+                android:textCursorDrawable="@color/colorAccent"
+                android:layout_width="315dp" android:layout_height="50dp" android:layout_gravity="center"
+                android:layout_marginLeft="8dp"/>
+
+        <Button
+                android:id="@+id/button_searchUser"
+                android:layout_width="54dp" android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_baseline_search_24" android:paddingStart="17dp"
+                android:layout_marginLeft="7dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/button_custom"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_users"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

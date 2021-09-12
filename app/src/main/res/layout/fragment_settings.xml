@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.SettingsFragment">
+
+    <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/standart_settings_item"
+            android:id="@+id/button_edit_account"
+            android:text="Edit Account"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_width="350dp" android:layout_height="50dp"/>
+
+    <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_custom_logout"
+            android:id="@+id/button_logout"
+            android:text="Log Out"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_width="350dp" android:layout_height="50dp"/>
+
+</LinearLayout>

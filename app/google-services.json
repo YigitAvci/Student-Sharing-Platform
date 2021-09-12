@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894438653195",
+    "project_id": "kotlinstudentsharingplatform",
+    "storage_bucket": "kotlinstudentsharingplatform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894438653195:android:62c18a6a6155ded643760e",
+        "android_client_info": {
+          "package_name": "com.avciy.studentsharingplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894438653195-qr1dkjvobfb92bopqqvidqfhtj1urceh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3SWyaxGVZxSjzou875qKEV7Frt_ZFZp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894438653195-qr1dkjvobfb92bopqqvidqfhtj1urceh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

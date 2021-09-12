@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.AccountDetailsFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/account_profile_photograph"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_width="320dp"
+            android:layout_height="50dp">
+        <CheckBox
+                android:layout_gravity="center"
+                android:id="@+id/checkbox_dis_name"
+                android:layout_width="30dp" android:layout_height="30dp"/>
+
+        <EditText android:singleLine="true"
+                  android:id="@+id/edittext_dis_name"
+                  android:textCursorDrawable="@color/colorThemeGreen"
+                  android:paddingLeft="10dp"
+                  android:textColor="#ffffff"
+                  android:textColorHint="#808080"
+                  android:inputType="text"
+                  android:background="@drawable/input_custom_login"
+                  android:layout_width="285dp" android:layout_height="50dp"
+                  android:hint="Edit Your Displaying Name"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="320dp"
+            android:layout_height="50dp">
+        <CheckBox
+                android:layout_gravity="center"
+                android:id="@+id/checkbox_spinner"
+                android:layout_width="30dp" android:layout_height="30dp"/>
+        <Spinner
+                android:id="@+id/spinner_departments"
+                android:background="@drawable/input_custom_login"
+                android:layout_width="285dp" android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="320dp"
+            android:layout_height="50dp">
+        <CheckBox
+                android:layout_gravity="center"
+                android:id="@+id/checkbox_password"
+                android:layout_width="30dp" android:layout_height="30dp"/>
+        <EditText
+                android:id="@+id/edittext_new_password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:paddingLeft="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:background="@drawable/input_custom_login"
+                android:layout_width="285dp" android:layout_height="50dp" android:hint="Type New Password"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="320dp"
+            android:layout_height="50dp">
+        <EditText
+                android:layout_marginLeft="30dp"
+                android:id="@+id/edittext_new_password_verify"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:paddingLeft="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#808080"
+                android:background="@drawable/input_custom_login"
+                android:layout_width="285dp" android:layout_height="50dp" android:hint="Verify The New Password"/>
+    </LinearLayout>
+
+    <Button
+           android:id="@+id/button_edit"
+           android:textSize="10pt"
+           android:text="Edıt"
+           android:textStyle="bold"
+           android:layout_marginTop="30dp"
+           android:background="@drawable/button_custom_login"
+           android:layout_width="320dp" android:layout_height="50dp"/>
+</LinearLayout>

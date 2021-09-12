@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Student Sharing Platform</string>
+
+    <string-array name="classNames">
+        <item>Calculus 1 (Calc1)</item>
+        <item>Calculus 2 (Calc2)</item>
+        <item>Geometry (Geom)</item>
+        <item>Physics 1 (Phys1)</item>
+        <item>Physics 2 (Phys2)</item>
+        <item>Differential Equation (Differ Equ)</item>
+        <item>Artificial Intelligence (AI)</item>
+        <item>Machine Learning (ML)</item>
+        <item>Operating Systems (OS)</item>
+    </string-array>
+
+    <string-array name="departmentNames">
+        <item>Computer Engineering</item>
+        <item>Industry Engineering</item>
+        <item>Electricity Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Civil Engineering</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
